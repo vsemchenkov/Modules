@@ -1,3 +1,4 @@
-import { Module } from './Modules/module.js';
+import { getterFunction } from "./Modules/getter_module.js";
+import { MyTypist } from "./Modules/writer_module.js";
 
-export { Module };
+export { getterFunction, MyTypist };
